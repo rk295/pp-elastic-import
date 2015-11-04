@@ -3,7 +3,7 @@ UK House Price paid elasticsearch import
 
 
 
-This is a logstash config which will parse the `CSV` file provided by the UK Government into the correct fields, insert into ElasticSearch. You need to download the data set from the UK Government open data site [here][download_page], a link to the full 3.5GB `CSV` is [here][single_file]. A detail about the meaning of the various column headings is also on their [site][column_headings].
+This is a logstash config which will parse the `CSV` file provided by the UK Government into the correct fields and insert into ElasticSearch. You need to download the data set from the UK Government open data site [here][download_page], a link to the full 3.5GB `CSV` is [here][single_file]. A detail about the meaning of the various column headings is also on their [site][column_headings].
 
 Running
 -------
